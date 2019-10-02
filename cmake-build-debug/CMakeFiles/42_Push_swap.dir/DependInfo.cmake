@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "D:/CLionProjects/42-Push_swap/GetNextLine/get_next_line.c" "D:/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/GetNextLine/get_next_line.c.obj"
   "D:/CLionProjects/42-Push_swap/push_swap.c" "D:/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/push_swap.c.obj"
   "D:/CLionProjects/42-Push_swap/validation.c" "D:/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/validation.c.obj"
   )
@@ -11,6 +12,8 @@ set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../GetNextLine"
+  "../GetNextLine/libft/includes"
   )
 
 # Targets to which this target links.

@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "42_Push_swap.exe"
   "42_Push_swap.exe.manifest"
   "42_Push_swap.pdb"
+  "CMakeFiles/42_Push_swap.dir/GetNextLine/get_next_line.c.obj"
   "CMakeFiles/42_Push_swap.dir/push_swap.c.obj"
   "CMakeFiles/42_Push_swap.dir/validation.c.obj"
   "lib42_Push_swap.dll.a"
