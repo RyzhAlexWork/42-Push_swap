@@ -1,11 +1,9 @@
 file(REMOVE_RECURSE
-  "42_Push_swap.exe"
-  "42_Push_swap.exe.manifest"
+  "42_Push_swap"
   "42_Push_swap.pdb"
-  "CMakeFiles/42_Push_swap.dir/GetNextLine/get_next_line.c.obj"
-  "CMakeFiles/42_Push_swap.dir/push_swap.c.obj"
-  "CMakeFiles/42_Push_swap.dir/validation.c.obj"
-  "lib42_Push_swap.dll.a"
+  "CMakeFiles/42_Push_swap.dir/GetNextLine/get_next_line.c.o"
+  "CMakeFiles/42_Push_swap.dir/push_swap.c.o"
+  "CMakeFiles/42_Push_swap.dir/validation.c.o"
 )
 
 # Per-language clean rules from dependency scanning.

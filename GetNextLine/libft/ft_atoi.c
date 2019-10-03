@@ -14,19 +14,19 @@
 
 static int	ft_check(char dig, char sign, long int res)
 {
-	if ((sign == '+' && res > 223372036854775807) ||
-			(res == 223372036854775807 && dig == 7))
-		return (-1);
-	if ((sign == '-' && res < -223372036854775806) ||
-			(res == -223372036854775806 && dig == 6))
+	if ((sign == '+' && res > 214748364) ||
+			(res == 214748364 && dig > '7'))
+		return (0);
+	if ((sign == '-' && res < -214748364) ||
+			(res == -214748364 && dig > '8'))
 		return (0);
 	else
 		return (10);
 }
 
-static int	ft_result(const char *dig)
+static int	ft_result(const char *dig, int *j)
 {
-	size_t		i;
+	int			i;
 	long int	res;
 	char		sign;
 
@@ -49,15 +49,13 @@ static int	ft_result(const char *dig)
 			res = res * 10 + (dig[i] - '0');
 		i++;
 	}
+	*j = *j + i + 1;
 	return (res);
 }
 
-int			ft_atoi(const char *str)
+int			ft_atoi(const char *str, int *i)
 {
-	size_t		i;
-
-	i = 0;
-	while (ft_isspace(str[i]))
-		i++;
-	return (ft_result(str + i));
+	while (ft_isspace(str[*i]))
+		(*i)++;
+	return (ft_result(str + *i, i));
 }

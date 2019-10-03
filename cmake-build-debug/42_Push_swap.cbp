@@ -8,300 +8,357 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/CLionProjects/42-Push_swap/cmake-build-debug"/>
+				<Option working_dir="/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="libft">
-				<Option output="D:/CLionProjects/42-Push_swap/cmake-build-debug/liblibft.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/CLionProjects/42-Push_swap/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/CLionProjects/42-Push_swap/GetNextLine"/>
-					<Add directory="D:/CLionProjects/42-Push_swap/GetNextLine/libft/includes"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 libft"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="libft/fast">
-				<Option output="D:/CLionProjects/42-Push_swap/cmake-build-debug/liblibft.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/CLionProjects/42-Push_swap/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/CLionProjects/42-Push_swap/GetNextLine"/>
-					<Add directory="D:/CLionProjects/42-Push_swap/GetNextLine/libft/includes"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 libft/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="42_Push_swap">
-				<Option output="D:/CLionProjects/42-Push_swap/cmake-build-debug/42_Push_swap.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/CLionProjects/42-Push_swap/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/CLionProjects/42-Push_swap/GetNextLine"/>
-					<Add directory="D:/CLionProjects/42-Push_swap/GetNextLine/libft/includes"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 42_Push_swap"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="42_Push_swap/fast">
-				<Option output="D:/CLionProjects/42-Push_swap/cmake-build-debug/42_Push_swap.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/CLionProjects/42-Push_swap/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/CLionProjects/42-Push_swap/GetNextLine"/>
-					<Add directory="D:/CLionProjects/42-Push_swap/GetNextLine/libft/includes"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 42_Push_swap/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/CLionProjects/42-Push_swap/cmake-build-debug"/>
+				<Option working_dir="/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="42_Push_swap">
+				<Option output="/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/42_Push_swap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine"/>
+					<Add directory="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 42_Push_swap"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="42_Push_swap/fast">
+				<Option output="/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/42_Push_swap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine"/>
+					<Add directory="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 42_Push_swap/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/CLionProjects/42-Push_swap/cmake-build-debug"/>
+				<Option working_dir="/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libft">
+				<Option output="/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/liblibft.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine"/>
+					<Add directory="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 libft"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libft/fast">
+				<Option output="/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/liblibft.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine"/>
+					<Add directory="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 libft/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="42_checker">
+				<Option output="/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/42_checker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine"/>
+					<Add directory="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 42_checker"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="42_checker/fast">
+				<Option output="/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/42_checker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine"/>
+					<Add directory="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 42_checker/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/get_next_line.c">
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/get_next_line.c">
+			<Option target="42_Push_swap"/>
+			<Option target="42_checker"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/get_next_line.h">
+			<Option target="42_Push_swap"/>
+			<Option target="42_checker"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_atoi.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_bzero.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_isalnum.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_isalpha.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_isascii.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_isdigit.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_isprint.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_isspace.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_itoa.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_memalloc.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_memccpy.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_memchr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_memcmp.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_memcpy.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_memdel.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_memmove.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_memset.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_putchar.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_putchar_fd.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_putendl.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_putendl_fd.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_putnbr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_putnbr_fd.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_putstr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_putstr_fd.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strcat.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strchr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strclr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strcmp.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strcpy.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strdel.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strdup.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strequ.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_striter.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_striteri.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strjoin.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strjoinfree.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strlcat.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strlen.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strmap.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strmapi.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strncat.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strncmp.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strncpy.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strnequ.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strnew.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strnstr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strrchr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strset.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strsplit.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strstr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strsub.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strtrim.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_subfr.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_tolower.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_toupper.c">
+			<Option target="libft"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/checker.c">
+			<Option target="42_checker"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/push_swap.c">
 			<Option target="42_Push_swap"/>
 		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/get_next_line.h">
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/push_swap.h">
 			<Option target="42_Push_swap"/>
 		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_atoi.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_bzero.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_isalnum.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_isalpha.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_isascii.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_isdigit.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_isprint.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_isspace.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_itoa.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_memalloc.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_memccpy.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_memchr.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_memcmp.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_memcpy.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_memdel.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_memmove.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_memset.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_putchar.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_putchar_fd.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_putendl.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_putendl_fd.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_putnbr.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_putnbr_fd.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_putstr.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_putstr_fd.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strcat.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strchr.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strclr.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strcmp.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strcpy.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strdel.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strdup.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strequ.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_striter.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_striteri.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strjoin.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strjoinfree.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strlcat.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strlen.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strmap.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strmapi.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strncat.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strncmp.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strncpy.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strnequ.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strnew.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strnstr.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strrchr.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strset.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strsplit.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strstr.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strsub.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_strtrim.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_subfr.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_tolower.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/GetNextLine/libft/ft_toupper.c">
-			<Option target="libft"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/push_swap.c">
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/validation.c">
 			<Option target="42_Push_swap"/>
 		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/push_swap.h">
-			<Option target="42_Push_swap"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/validation.c">
-			<Option target="42_Push_swap"/>
-		</Unit>
-		<Unit filename="D:/CLionProjects/42-Push_swap/CMakeLists.txt">
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

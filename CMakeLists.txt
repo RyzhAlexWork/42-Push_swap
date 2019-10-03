@@ -6,6 +6,7 @@ set(CMAKE_C_STANDARD 99)
 set(CMAKE_CXX_FLAGS "-Wall -Werror -Wextra -g")
 
 add_executable(42_Push_swap push_swap.c validation.c GetNextLine/get_next_line.c)
+add_executable(42_checker checker.c GetNextLine/get_next_line.c)
 add_library(libft STATIC GetNextLine/libft/ft_memset.c GetNextLine/libft/ft_bzero.c GetNextLine/libft/ft_memcpy.c GetNextLine/libft/ft_memccpy.c GetNextLine/libft/ft_memmove.c
         GetNextLine/libft/ft_memchr.c GetNextLine/libft/ft_memcmp.c GetNextLine/libft/ft_strlen.c GetNextLine/libft/ft_strdup.c GetNextLine/libft/ft_strcpy.c GetNextLine/libft/ft_strncpy.c
         GetNextLine/libft/ft_strcat.c GetNextLine/libft/ft_strncat.c GetNextLine/libft/ft_strlcat.c GetNextLine/libft/ft_strchr.c GetNextLine/libft/ft_strrchr.c GetNextLine/libft/ft_strstr.c
@@ -22,3 +23,4 @@ include_directories(GetNextLine/libft/includes)
 
 find_library(LIBFT libft cmake-build-debug)
 target_link_libraries(42_Push_swap LINK_PUBLIC ${LIBFT})
+target_link_libraries(42_checker LINK_PUBLIC ${LIBFT})

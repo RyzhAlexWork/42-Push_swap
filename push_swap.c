@@ -1,14 +1,12 @@
 #include "push_swap.h"
 #include <stdio.h>
 
-int main() {
-	char *line;
-
-	while (get_next_line(0, &line))
+int main(int argc, char **argv)
+{
+	if (ft_validation(argc, argv) == -1)
 	{
-		printf("%s\n", line);
-		free(line);
-		line = NULL;
+		write(2, "Error\n", 6);
+		exit(-1);
 	}
-    return (0);
+	return (0);
 }
