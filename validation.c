@@ -15,7 +15,7 @@ int ft_getnum(int argc, char **argv)
 		{
 			while (j <= i)
 			{
-				
+
 			}
 		}
 	}
