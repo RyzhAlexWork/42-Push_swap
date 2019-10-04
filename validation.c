@@ -1,6 +1,34 @@
-#include "push_swap.h"
 
-int ft_getnum(int argc, char **argv)
+#include "push_swap.h"
+#include <stdio.h>
+
+int 	*ft_checkrep(int *array, int i) // Проверка на повторы
+{
+	int j;
+
+	j = 0;
+	while (j + 2 < i && array[j] != array[j + 1])
+		j++;
+	if (i > 1 && array[j] == array[j + 1])
+	{
+		free(array);
+		return (NULL);
+	}
+	return (array);
+}
+
+int 	ft_checkzero(int argc, char **argv, int i, int j) // Проверяет, 0 это 0 или ошибка
+{
+	while (j <= i && ft_isdigit(argv[argc][j]) != 1)
+		j++;
+	while (argv[argc][j] == '0' && ft_isdigit(argv[argc][j + 1]) == 1)
+		j++;
+	if (argv[argc][j] != '0')
+		return (-1);
+	return (0);
+}
+
+int		ft_getnum(int argc, char **argv, t_list **l_num) // Создает список всех чисел
 {
 	int i;
 	int j;
@@ -10,18 +38,20 @@ int ft_getnum(int argc, char **argv)
 	while (argv[argc][i] != '\0')
 	{
 		j = i;
-		num = ft_atoi(argv[argc] + i, &i);
-		if (num == 0)
-		{
-			while (j <= i)
-			{
-
-			}
-		}
+		while (argv[argc][i] != '\0' && ft_isdigit(argv[argc][i]) != 1) // Проверка, есть ли числа дальше
+			i++;
+		if (argv[argc][i] == '\0')
+			return (0);
+		i = j;
+		num = ft_atoi(argv[argc], &i);
+		if (num == 0 && (ft_checkzero(argc, argv, i, j)) == -1) // Проверка, число ошибочное или 0
+			return (-1);
+		if (((*l_num) = ft_new_list(num, l_num)) == NULL) // Создаём лист под число
+			return (-1);
 	}
 }
 
-int ft_validation2(int argc, char **argv)
+int		ft_validation2(int argc, char **argv)
 {
 	int i;
 
@@ -39,7 +69,7 @@ int ft_validation2(int argc, char **argv)
 	return (0);
 }
 
-int ft_validation(int argc, char **argv)
+int		ft_validation(int argc, char **argv, t_list **l_num)
 {
 	int i;
 
@@ -52,7 +82,8 @@ int ft_validation(int argc, char **argv)
 		{
 			if (ft_validation2(i, argv) == -1)
 				return (-1);
-			ft_getnum(i, argv);
+			if (ft_getnum(i, argv, l_num) == -1)
+				return (-1);
 			i++;
 		}
 	}

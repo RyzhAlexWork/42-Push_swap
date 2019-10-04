@@ -1718,6 +1718,33 @@ checker.c.s:
 	$(MAKE) -f CMakeFiles/42_checker.dir/build.make CMakeFiles/42_checker.dir/checker.c.s
 .PHONY : checker.c.s
 
+ft_list.o: ft_list.c.o
+
+.PHONY : ft_list.o
+
+# target to build an object file
+ft_list.c.o:
+	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/ft_list.c.o
+.PHONY : ft_list.c.o
+
+ft_list.i: ft_list.c.i
+
+.PHONY : ft_list.i
+
+# target to preprocess a source file
+ft_list.c.i:
+	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/ft_list.c.i
+.PHONY : ft_list.c.i
+
+ft_list.s: ft_list.c.s
+
+.PHONY : ft_list.s
+
+# target to generate assembly for a file
+ft_list.c.s:
+	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/ft_list.c.s
+.PHONY : ft_list.c.s
+
 push_swap.o: push_swap.c.o
 
 .PHONY : push_swap.o
@@ -1744,6 +1771,33 @@ push_swap.s: push_swap.c.s
 push_swap.c.s:
 	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/push_swap.c.s
 .PHONY : push_swap.c.s
+
+quicksort.o: quicksort.c.o
+
+.PHONY : quicksort.o
+
+# target to build an object file
+quicksort.c.o:
+	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/quicksort.c.o
+.PHONY : quicksort.c.o
+
+quicksort.i: quicksort.c.i
+
+.PHONY : quicksort.i
+
+# target to preprocess a source file
+quicksort.c.i:
+	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/quicksort.c.i
+.PHONY : quicksort.c.i
+
+quicksort.s: quicksort.c.s
+
+.PHONY : quicksort.s
+
+# target to generate assembly for a file
+quicksort.c.s:
+	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/quicksort.c.s
+.PHONY : quicksort.c.s
 
 validation.o: validation.c.o
 
@@ -1957,9 +2011,15 @@ help:
 	@echo "... checker.o"
 	@echo "... checker.i"
 	@echo "... checker.s"
+	@echo "... ft_list.o"
+	@echo "... ft_list.i"
+	@echo "... ft_list.s"
 	@echo "... push_swap.o"
 	@echo "... push_swap.i"
 	@echo "... push_swap.s"
+	@echo "... quicksort.o"
+	@echo "... quicksort.i"
+	@echo "... quicksort.s"
 	@echo "... validation.o"
 	@echo "... validation.i"
 	@echo "... validation.s"

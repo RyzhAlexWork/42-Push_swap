@@ -40,16 +40,15 @@ static int	ft_result(const char *dig, int *j)
 	}
 	while (ft_isdigit(dig[i]))
 	{
-		if (ft_check(dig[i], sign, res) == -1
-				|| ft_check(dig[i], sign, res) == 0)
-			return (ft_check(dig[i], sign, res));
+		if (ft_check(dig[i], sign, res) == 0)
+			return (0);
 		if (sign == '-')
 			res = res * 10 - (dig[i] - '0');
 		else
 			res = res * 10 + (dig[i] - '0');
 		i++;
 	}
-	*j = *j + i + 1;
+	*j = *j + i;
 	return (res);
 }
 
