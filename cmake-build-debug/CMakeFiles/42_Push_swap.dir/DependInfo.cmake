@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/get_next_line.c" "/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/GetNextLine/get_next_line.c.o"
   "/home/jbowen/CLionProjects/42-Push_swap/ft_list.c" "/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/ft_list.c.o"
+  "/home/jbowen/CLionProjects/42-Push_swap/operation.c" "/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/operation.c.o"
   "/home/jbowen/CLionProjects/42-Push_swap/push_swap.c" "/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/push_swap.c.o"
   "/home/jbowen/CLionProjects/42-Push_swap/quicksort.c" "/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/quicksort.c.o"
   "/home/jbowen/CLionProjects/42-Push_swap/validation.c" "/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/validation.c.o"

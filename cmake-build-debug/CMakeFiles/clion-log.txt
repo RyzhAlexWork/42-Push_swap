@@ -1,4 +1,4 @@
-/snap/clion/85/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jbowen/CLionProjects/42-Push_swap
+/snap/clion/88/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jbowen/CLionProjects/42-Push_swap
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug

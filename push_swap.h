@@ -15,10 +15,30 @@ typedef struct		s_list
 	struct s_list	*prev;
 }					t_list;
 
+typedef struct		s_main
+{
+	int				mid;
+	int				max;
+	int				flag;
+	int				next;
+}					t_main;
+
 int		ft_validation(int argc, char **argv, t_list **l_num);
 void	quicksort(int *numbers, int left, int right);
 int		*ft_checkrep(int *array, int i);
 t_list	*ft_new_list(int num, t_list **l_num);
 void	ft_clear_list(t_list **l_num);
+int		ft_checksort(t_list *l_num);
+void	ft_push_a(t_list **stack_a, t_list **stack_b);
+void	ft_push_b(t_list **stack_a, t_list **stack_b);
+void	ft_swap_a(t_list **stack_a);
+void	ft_swap_b(t_list **stack_b);
+void	ft_swap_s(t_list **stack_a, t_list **stack_b);
+void	ft_rotate_a(t_list **stack_a);
+void	ft_rotate_b(t_list **stack_b);
+void	ft_rotate_r(t_list **stack_a, t_list **stack_b);
+void	ft_revrotate_a(t_list **stack_a);
+void	ft_revrotate_b(t_list **stack_b);
+void	ft_revrotate_r(t_list **stack_a, t_list **stack_b);
 
 #endif

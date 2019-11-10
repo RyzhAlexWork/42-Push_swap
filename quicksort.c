@@ -1,4 +1,16 @@
 
+#include "push_swap.h"
+
+int		ft_checksort(t_list *l_num)
+{
+	while (l_num->prev != NULL && (l_num->value > (l_num->prev)->value))
+		l_num = l_num->prev;
+	if (l_num->prev == NULL)
+		exit (0);
+	else
+		return (1);
+}
+
 void	quicksort2(int *array, int *left, int *right, int pivot)
 {
 	while (*left < *right) // пока границы не сомкнутся

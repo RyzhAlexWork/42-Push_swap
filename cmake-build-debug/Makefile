@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/85/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/88/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/85/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/88/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/85/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/88/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/85/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/88/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -1745,6 +1745,36 @@ ft_list.c.s:
 	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/ft_list.c.s
 .PHONY : ft_list.c.s
 
+operation.o: operation.c.o
+
+.PHONY : operation.o
+
+# target to build an object file
+operation.c.o:
+	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/operation.c.o
+	$(MAKE) -f CMakeFiles/42_checker.dir/build.make CMakeFiles/42_checker.dir/operation.c.o
+.PHONY : operation.c.o
+
+operation.i: operation.c.i
+
+.PHONY : operation.i
+
+# target to preprocess a source file
+operation.c.i:
+	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/operation.c.i
+	$(MAKE) -f CMakeFiles/42_checker.dir/build.make CMakeFiles/42_checker.dir/operation.c.i
+.PHONY : operation.c.i
+
+operation.s: operation.c.s
+
+.PHONY : operation.s
+
+# target to generate assembly for a file
+operation.c.s:
+	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/operation.c.s
+	$(MAKE) -f CMakeFiles/42_checker.dir/build.make CMakeFiles/42_checker.dir/operation.c.s
+.PHONY : operation.c.s
+
 push_swap.o: push_swap.c.o
 
 .PHONY : push_swap.o
@@ -2014,6 +2044,9 @@ help:
 	@echo "... ft_list.o"
 	@echo "... ft_list.i"
 	@echo "... ft_list.s"
+	@echo "... operation.o"
+	@echo "... operation.i"
+	@echo "... operation.s"
 	@echo "... push_swap.o"
 	@echo "... push_swap.i"
 	@echo "... push_swap.s"

@@ -352,6 +352,10 @@
 		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/ft_list.c">
 			<Option target="42_Push_swap"/>
 		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/operation.c">
+			<Option target="42_Push_swap"/>
+			<Option target="42_checker"/>
+		</Unit>
 		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/push_swap.c">
 			<Option target="42_Push_swap"/>
 		</Unit>
