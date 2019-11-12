@@ -346,6 +346,9 @@
 		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/libft/ft_toupper.c">
 			<Option target="libft"/>
 		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/algorithm.c">
+			<Option target="42_Push_swap"/>
+		</Unit>
 		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/checker.c">
 			<Option target="42_checker"/>
 		</Unit>
@@ -353,6 +356,14 @@
 			<Option target="42_Push_swap"/>
 		</Unit>
 		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/operation.c">
+			<Option target="42_Push_swap"/>
+			<Option target="42_checker"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/operation2.c">
+			<Option target="42_Push_swap"/>
+			<Option target="42_checker"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/operation3.c">
 			<Option target="42_Push_swap"/>
 			<Option target="42_checker"/>
 		</Unit>

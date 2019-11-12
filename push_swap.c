@@ -57,14 +57,10 @@ int *ft_makearray(t_list *l_num, int *i)
 int main(int argc, char **argv)
 {
 	t_list	*l_num;
-	t_list	*l_num2;
-	t_main	*l_main;
 	int 	i;
 	int 	*array;
 
 	l_num = NULL;
-	l_num2 = NULL;
-	l_main = NULL;
 	i = 1;
 	if (ft_validation(argc, argv, &l_num) == -1 || ft_checksort(l_num) == -1 ||
 	(array = ft_makearray(l_num, &i)) == NULL)
@@ -73,28 +69,11 @@ int main(int argc, char **argv)
 		exit(-1);
 	}
 	ft_order(l_num, i, array);
-	l_main = ft_crmain(i);
 	while (l_num->prev != NULL)
 	{
 		l_num = l_num->prev;
 	}
-	ft_push_a(&l_num2, &l_num);
-	ft_push_a(&l_num2, &l_num);
-	ft_push_a(&l_num2, &l_num);
-	ft_push_b(&l_num2, &l_num);
-	ft_swap_s(&l_num, &l_num2);
-	ft_revrotate_r(&l_num, &l_num2);
-	while (l_num != NULL)
-	{
-		printf("%d\n", l_num->value);
-		l_num = l_num->next;
-	}
-	printf("\n");
-	while (l_num2 != NULL)
-	{
-		printf("%d\n", l_num2->value);
-		l_num2 = l_num2->next;
-	}
+	ft_algorithm(l_num, i);
 	free(array);
 	ft_clear_list(&l_num);
 	return (0);

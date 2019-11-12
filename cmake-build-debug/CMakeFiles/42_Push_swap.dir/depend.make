@@ -5,6 +5,11 @@ CMakeFiles/42_Push_swap.dir/GetNextLine/get_next_line.c.o: ../GetNextLine/get_ne
 CMakeFiles/42_Push_swap.dir/GetNextLine/get_next_line.c.o: ../GetNextLine/get_next_line.h
 CMakeFiles/42_Push_swap.dir/GetNextLine/get_next_line.c.o: ../GetNextLine/libft/includes/libft.h
 
+CMakeFiles/42_Push_swap.dir/algorithm.c.o: ../GetNextLine/get_next_line.h
+CMakeFiles/42_Push_swap.dir/algorithm.c.o: ../GetNextLine/libft/includes/libft.h
+CMakeFiles/42_Push_swap.dir/algorithm.c.o: ../algorithm.c
+CMakeFiles/42_Push_swap.dir/algorithm.c.o: ../push_swap.h
+
 CMakeFiles/42_Push_swap.dir/ft_list.c.o: ../GetNextLine/get_next_line.h
 CMakeFiles/42_Push_swap.dir/ft_list.c.o: ../GetNextLine/libft/includes/libft.h
 CMakeFiles/42_Push_swap.dir/ft_list.c.o: ../ft_list.c
@@ -14,6 +19,16 @@ CMakeFiles/42_Push_swap.dir/operation.c.o: ../GetNextLine/get_next_line.h
 CMakeFiles/42_Push_swap.dir/operation.c.o: ../GetNextLine/libft/includes/libft.h
 CMakeFiles/42_Push_swap.dir/operation.c.o: ../operation.c
 CMakeFiles/42_Push_swap.dir/operation.c.o: ../push_swap.h
+
+CMakeFiles/42_Push_swap.dir/operation2.c.o: ../GetNextLine/get_next_line.h
+CMakeFiles/42_Push_swap.dir/operation2.c.o: ../GetNextLine/libft/includes/libft.h
+CMakeFiles/42_Push_swap.dir/operation2.c.o: ../operation2.c
+CMakeFiles/42_Push_swap.dir/operation2.c.o: ../push_swap.h
+
+CMakeFiles/42_Push_swap.dir/operation3.c.o: ../GetNextLine/get_next_line.h
+CMakeFiles/42_Push_swap.dir/operation3.c.o: ../GetNextLine/libft/includes/libft.h
+CMakeFiles/42_Push_swap.dir/operation3.c.o: ../operation3.c
+CMakeFiles/42_Push_swap.dir/operation3.c.o: ../push_swap.h
 
 CMakeFiles/42_Push_swap.dir/push_swap.c.o: ../GetNextLine/get_next_line.h
 CMakeFiles/42_Push_swap.dir/push_swap.c.o: ../GetNextLine/libft/includes/libft.h

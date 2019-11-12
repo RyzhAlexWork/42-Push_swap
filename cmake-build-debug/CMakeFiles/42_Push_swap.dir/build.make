@@ -135,6 +135,45 @@ CMakeFiles/42_Push_swap.dir/operation.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_Push_swap.dir/operation.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jbowen/CLionProjects/42-Push_swap/operation.c -o CMakeFiles/42_Push_swap.dir/operation.c.s
 
+CMakeFiles/42_Push_swap.dir/operation2.c.o: CMakeFiles/42_Push_swap.dir/flags.make
+CMakeFiles/42_Push_swap.dir/operation2.c.o: ../operation2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/42_Push_swap.dir/operation2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_Push_swap.dir/operation2.c.o   -c /home/jbowen/CLionProjects/42-Push_swap/operation2.c
+
+CMakeFiles/42_Push_swap.dir/operation2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_Push_swap.dir/operation2.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jbowen/CLionProjects/42-Push_swap/operation2.c > CMakeFiles/42_Push_swap.dir/operation2.c.i
+
+CMakeFiles/42_Push_swap.dir/operation2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_Push_swap.dir/operation2.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jbowen/CLionProjects/42-Push_swap/operation2.c -o CMakeFiles/42_Push_swap.dir/operation2.c.s
+
+CMakeFiles/42_Push_swap.dir/operation3.c.o: CMakeFiles/42_Push_swap.dir/flags.make
+CMakeFiles/42_Push_swap.dir/operation3.c.o: ../operation3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/42_Push_swap.dir/operation3.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_Push_swap.dir/operation3.c.o   -c /home/jbowen/CLionProjects/42-Push_swap/operation3.c
+
+CMakeFiles/42_Push_swap.dir/operation3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_Push_swap.dir/operation3.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jbowen/CLionProjects/42-Push_swap/operation3.c > CMakeFiles/42_Push_swap.dir/operation3.c.i
+
+CMakeFiles/42_Push_swap.dir/operation3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_Push_swap.dir/operation3.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jbowen/CLionProjects/42-Push_swap/operation3.c -o CMakeFiles/42_Push_swap.dir/operation3.c.s
+
+CMakeFiles/42_Push_swap.dir/algorithm.c.o: CMakeFiles/42_Push_swap.dir/flags.make
+CMakeFiles/42_Push_swap.dir/algorithm.c.o: ../algorithm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/42_Push_swap.dir/algorithm.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/42_Push_swap.dir/algorithm.c.o   -c /home/jbowen/CLionProjects/42-Push_swap/algorithm.c
+
+CMakeFiles/42_Push_swap.dir/algorithm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42_Push_swap.dir/algorithm.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jbowen/CLionProjects/42-Push_swap/algorithm.c > CMakeFiles/42_Push_swap.dir/algorithm.c.i
+
+CMakeFiles/42_Push_swap.dir/algorithm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42_Push_swap.dir/algorithm.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jbowen/CLionProjects/42-Push_swap/algorithm.c -o CMakeFiles/42_Push_swap.dir/algorithm.c.s
+
 # Object files for target 42_Push_swap
 42_Push_swap_OBJECTS = \
 "CMakeFiles/42_Push_swap.dir/push_swap.c.o" \
@@ -142,7 +181,10 @@ CMakeFiles/42_Push_swap.dir/operation.c.s: cmake_force
 "CMakeFiles/42_Push_swap.dir/GetNextLine/get_next_line.c.o" \
 "CMakeFiles/42_Push_swap.dir/quicksort.c.o" \
 "CMakeFiles/42_Push_swap.dir/ft_list.c.o" \
-"CMakeFiles/42_Push_swap.dir/operation.c.o"
+"CMakeFiles/42_Push_swap.dir/operation.c.o" \
+"CMakeFiles/42_Push_swap.dir/operation2.c.o" \
+"CMakeFiles/42_Push_swap.dir/operation3.c.o" \
+"CMakeFiles/42_Push_swap.dir/algorithm.c.o"
 
 # External object files for target 42_Push_swap
 42_Push_swap_EXTERNAL_OBJECTS =
@@ -153,10 +195,13 @@ CMakeFiles/42_Push_swap.dir/operation.c.s: cmake_force
 42_Push_swap: CMakeFiles/42_Push_swap.dir/quicksort.c.o
 42_Push_swap: CMakeFiles/42_Push_swap.dir/ft_list.c.o
 42_Push_swap: CMakeFiles/42_Push_swap.dir/operation.c.o
+42_Push_swap: CMakeFiles/42_Push_swap.dir/operation2.c.o
+42_Push_swap: CMakeFiles/42_Push_swap.dir/operation3.c.o
+42_Push_swap: CMakeFiles/42_Push_swap.dir/algorithm.c.o
 42_Push_swap: CMakeFiles/42_Push_swap.dir/build.make
 42_Push_swap: liblibft.a
 42_Push_swap: CMakeFiles/42_Push_swap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable 42_Push_swap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable 42_Push_swap"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/42_Push_swap.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

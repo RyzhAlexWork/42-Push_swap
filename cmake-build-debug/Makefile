@@ -1691,6 +1691,33 @@ GetNextLine/libft/ft_toupper.c.s:
 	$(MAKE) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/GetNextLine/libft/ft_toupper.c.s
 .PHONY : GetNextLine/libft/ft_toupper.c.s
 
+algorithm.o: algorithm.c.o
+
+.PHONY : algorithm.o
+
+# target to build an object file
+algorithm.c.o:
+	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/algorithm.c.o
+.PHONY : algorithm.c.o
+
+algorithm.i: algorithm.c.i
+
+.PHONY : algorithm.i
+
+# target to preprocess a source file
+algorithm.c.i:
+	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/algorithm.c.i
+.PHONY : algorithm.c.i
+
+algorithm.s: algorithm.c.s
+
+.PHONY : algorithm.s
+
+# target to generate assembly for a file
+algorithm.c.s:
+	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/algorithm.c.s
+.PHONY : algorithm.c.s
+
 checker.o: checker.c.o
 
 .PHONY : checker.o
@@ -1774,6 +1801,66 @@ operation.c.s:
 	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/operation.c.s
 	$(MAKE) -f CMakeFiles/42_checker.dir/build.make CMakeFiles/42_checker.dir/operation.c.s
 .PHONY : operation.c.s
+
+operation2.o: operation2.c.o
+
+.PHONY : operation2.o
+
+# target to build an object file
+operation2.c.o:
+	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/operation2.c.o
+	$(MAKE) -f CMakeFiles/42_checker.dir/build.make CMakeFiles/42_checker.dir/operation2.c.o
+.PHONY : operation2.c.o
+
+operation2.i: operation2.c.i
+
+.PHONY : operation2.i
+
+# target to preprocess a source file
+operation2.c.i:
+	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/operation2.c.i
+	$(MAKE) -f CMakeFiles/42_checker.dir/build.make CMakeFiles/42_checker.dir/operation2.c.i
+.PHONY : operation2.c.i
+
+operation2.s: operation2.c.s
+
+.PHONY : operation2.s
+
+# target to generate assembly for a file
+operation2.c.s:
+	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/operation2.c.s
+	$(MAKE) -f CMakeFiles/42_checker.dir/build.make CMakeFiles/42_checker.dir/operation2.c.s
+.PHONY : operation2.c.s
+
+operation3.o: operation3.c.o
+
+.PHONY : operation3.o
+
+# target to build an object file
+operation3.c.o:
+	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/operation3.c.o
+	$(MAKE) -f CMakeFiles/42_checker.dir/build.make CMakeFiles/42_checker.dir/operation3.c.o
+.PHONY : operation3.c.o
+
+operation3.i: operation3.c.i
+
+.PHONY : operation3.i
+
+# target to preprocess a source file
+operation3.c.i:
+	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/operation3.c.i
+	$(MAKE) -f CMakeFiles/42_checker.dir/build.make CMakeFiles/42_checker.dir/operation3.c.i
+.PHONY : operation3.c.i
+
+operation3.s: operation3.c.s
+
+.PHONY : operation3.s
+
+# target to generate assembly for a file
+operation3.c.s:
+	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/operation3.c.s
+	$(MAKE) -f CMakeFiles/42_checker.dir/build.make CMakeFiles/42_checker.dir/operation3.c.s
+.PHONY : operation3.c.s
 
 push_swap.o: push_swap.c.o
 
@@ -2038,6 +2125,9 @@ help:
 	@echo "... GetNextLine/libft/ft_toupper.o"
 	@echo "... GetNextLine/libft/ft_toupper.i"
 	@echo "... GetNextLine/libft/ft_toupper.s"
+	@echo "... algorithm.o"
+	@echo "... algorithm.i"
+	@echo "... algorithm.s"
 	@echo "... checker.o"
 	@echo "... checker.i"
 	@echo "... checker.s"
@@ -2047,6 +2137,12 @@ help:
 	@echo "... operation.o"
 	@echo "... operation.i"
 	@echo "... operation.s"
+	@echo "... operation2.o"
+	@echo "... operation2.i"
+	@echo "... operation2.s"
+	@echo "... operation3.o"
+	@echo "... operation3.i"
+	@echo "... operation3.s"
 	@echo "... push_swap.o"
 	@echo "... push_swap.i"
 	@echo "... push_swap.s"
