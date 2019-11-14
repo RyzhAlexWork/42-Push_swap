@@ -40,6 +40,16 @@ CMakeFiles/42_Push_swap.dir/quicksort.c.o: ../GetNextLine/libft/includes/libft.h
 CMakeFiles/42_Push_swap.dir/quicksort.c.o: ../push_swap.h
 CMakeFiles/42_Push_swap.dir/quicksort.c.o: ../quicksort.c
 
+CMakeFiles/42_Push_swap.dir/special_case.c.o: ../GetNextLine/get_next_line.h
+CMakeFiles/42_Push_swap.dir/special_case.c.o: ../GetNextLine/libft/includes/libft.h
+CMakeFiles/42_Push_swap.dir/special_case.c.o: ../push_swap.h
+CMakeFiles/42_Push_swap.dir/special_case.c.o: ../special_case.c
+
+CMakeFiles/42_Push_swap.dir/special_case2.c.o: ../GetNextLine/get_next_line.h
+CMakeFiles/42_Push_swap.dir/special_case2.c.o: ../GetNextLine/libft/includes/libft.h
+CMakeFiles/42_Push_swap.dir/special_case2.c.o: ../push_swap.h
+CMakeFiles/42_Push_swap.dir/special_case2.c.o: ../special_case2.c
+
 CMakeFiles/42_Push_swap.dir/validation.c.o: ../GetNextLine/get_next_line.h
 CMakeFiles/42_Push_swap.dir/validation.c.o: ../GetNextLine/libft/includes/libft.h
 CMakeFiles/42_Push_swap.dir/validation.c.o: ../push_swap.h

@@ -376,6 +376,12 @@
 		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/quicksort.c">
 			<Option target="42_Push_swap"/>
 		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/special_case.c">
+			<Option target="42_Push_swap"/>
+		</Unit>
+		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/special_case2.c">
+			<Option target="42_Push_swap"/>
+		</Unit>
 		<Unit filename="/home/jbowen/CLionProjects/42-Push_swap/validation.c">
 			<Option target="42_Push_swap"/>
 		</Unit>

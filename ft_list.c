@@ -22,9 +22,11 @@ void	ft_clear_list(t_list **l_num)
 {
 	t_list	*tmp;
 
+	while ((*l_num)->prev != NULL)
+		(*l_num) = (*l_num)->prev;
 	while (*l_num != NULL)
 	{
-		tmp = (*l_num)->prev;
+		tmp = (*l_num)->next;
 		free(*l_num);
 		*l_num = tmp;
 	}

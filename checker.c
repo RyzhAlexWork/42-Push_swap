@@ -2,15 +2,19 @@
 #include "push_swap.h"
 #include <stdio.h>
 
-int main(void)
+int main(int argc, char **argv)
 {
-	char *line;
-	int fd;
-	int i;
+	t_list	*l_num;
+	int		fd;
+	int		i;
 
 	i = 2;
-	printf("%d\n", ft_atoi("       ", &i));
-	fd = open("../author", O_RDONLY);
+	if (ft_validation(argc, argv, &l_num) == -1)
+	{
+		write(2, "Error\n", 6);
+		exit(-1);
+	}
+	fd = open(1, O_RDONLY);
 	get_next_line(fd, &line);
 	printf("%s\n", line);
 	return (0);

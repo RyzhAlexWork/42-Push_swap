@@ -12,6 +12,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/jbowen/CLionProjects/42-Push_swap/operation3.c" "/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/operation3.c.o"
   "/home/jbowen/CLionProjects/42-Push_swap/push_swap.c" "/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/push_swap.c.o"
   "/home/jbowen/CLionProjects/42-Push_swap/quicksort.c" "/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/quicksort.c.o"
+  "/home/jbowen/CLionProjects/42-Push_swap/special_case.c" "/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/special_case.c.o"
+  "/home/jbowen/CLionProjects/42-Push_swap/special_case2.c" "/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/special_case2.c.o"
   "/home/jbowen/CLionProjects/42-Push_swap/validation.c" "/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/validation.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

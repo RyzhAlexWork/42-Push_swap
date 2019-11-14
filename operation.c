@@ -39,7 +39,7 @@ void	ft_push_b(t_list **stack_a, t_list **stack_b)
 	{
 		(*stack_b)->prev = (*stack_a);
 		(*stack_a) = (*stack_a)->next;
-		if (*stack_b != NULL)
+		if (*stack_a != NULL)
 			(*stack_a)->prev = NULL;
 		((*stack_b)->prev)->next = (*stack_b);
 		(*stack_b) = (*stack_b)->prev;

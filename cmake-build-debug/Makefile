@@ -1916,6 +1916,60 @@ quicksort.c.s:
 	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/quicksort.c.s
 .PHONY : quicksort.c.s
 
+special_case.o: special_case.c.o
+
+.PHONY : special_case.o
+
+# target to build an object file
+special_case.c.o:
+	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/special_case.c.o
+.PHONY : special_case.c.o
+
+special_case.i: special_case.c.i
+
+.PHONY : special_case.i
+
+# target to preprocess a source file
+special_case.c.i:
+	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/special_case.c.i
+.PHONY : special_case.c.i
+
+special_case.s: special_case.c.s
+
+.PHONY : special_case.s
+
+# target to generate assembly for a file
+special_case.c.s:
+	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/special_case.c.s
+.PHONY : special_case.c.s
+
+special_case2.o: special_case2.c.o
+
+.PHONY : special_case2.o
+
+# target to build an object file
+special_case2.c.o:
+	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/special_case2.c.o
+.PHONY : special_case2.c.o
+
+special_case2.i: special_case2.c.i
+
+.PHONY : special_case2.i
+
+# target to preprocess a source file
+special_case2.c.i:
+	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/special_case2.c.i
+.PHONY : special_case2.c.i
+
+special_case2.s: special_case2.c.s
+
+.PHONY : special_case2.s
+
+# target to generate assembly for a file
+special_case2.c.s:
+	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/special_case2.c.s
+.PHONY : special_case2.c.s
+
 validation.o: validation.c.o
 
 .PHONY : validation.o
@@ -2149,6 +2203,12 @@ help:
 	@echo "... quicksort.o"
 	@echo "... quicksort.i"
 	@echo "... quicksort.s"
+	@echo "... special_case.o"
+	@echo "... special_case.i"
+	@echo "... special_case.s"
+	@echo "... special_case2.o"
+	@echo "... special_case2.i"
+	@echo "... special_case2.s"
 	@echo "... validation.o"
 	@echo "... validation.i"
 	@echo "... validation.s"

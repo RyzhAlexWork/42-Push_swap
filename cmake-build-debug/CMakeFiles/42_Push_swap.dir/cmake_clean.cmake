@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/42_Push_swap.dir/operation3.c.o"
   "CMakeFiles/42_Push_swap.dir/push_swap.c.o"
   "CMakeFiles/42_Push_swap.dir/quicksort.c.o"
+  "CMakeFiles/42_Push_swap.dir/special_case.c.o"
+  "CMakeFiles/42_Push_swap.dir/special_case2.c.o"
   "CMakeFiles/42_Push_swap.dir/validation.c.o"
 )
 
