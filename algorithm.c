@@ -141,16 +141,19 @@ void	ft_algorithm2(t_list **stack_a, t_list **stack_b, t_main *l_main, int i)
 	}
 	else if (i > 1 && i < 6)
 	{
-		special_case(stack_b, stack_a, i);
+		special_case(stack_b, stack_a, i, l_main);
 		ft_push_rot(stack_a, stack_b, i);
 		l_main->next = l_main->next + i;
 	}
-	while ((i > 5 || i == 1) && (*stack_b) != NULL)
+	else
 	{
-		l_main->max = l_main->mid;
-		l_main->mid = (l_main->max - l_main->next) / 2 + l_main->next;
-		l_main->flag++;
-		ft_algorithm3(stack_a, stack_b, l_main);
+		while ((*stack_b) != NULL)
+		{
+			l_main->max = l_main->mid;
+			l_main->mid = (l_main->max - l_main->next) / 2 + l_main->next;
+			l_main->flag++;
+			ft_algorithm3(stack_a, stack_b, l_main);
+		}
 	}
 }
 
@@ -164,7 +167,7 @@ void	ft_algorithm(t_list *stack_a, int i)
 	l_main = ft_crmain(i);
 	k = l_main->max;
 	if (i <= 5)
-		special_case(&stack_a, &stack_b, i);
+		special_case(&stack_a, &stack_b, i, l_main);
 	else
 	{
 		i = ft_algorithm5(&stack_a, &stack_b, l_main);

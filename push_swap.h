@@ -46,7 +46,7 @@ void	ft_algorithm2(t_list **stack_a, t_list **stack_b, t_main *l_main, int i);
 void	ft_algorithm3(t_list **stack_a, t_list **stack_b, t_main *l_main);
 int		ft_algorithm4(t_list **stack_a, t_list **stack_b, t_main *l_main);
 int		ft_algorithm5(t_list **stack_a, t_list **stack_b, t_main *l_main);
-void	special_case(t_list **stack_a, t_list **stack_b, int i);
+void	special_case(t_list **stack_a, t_list **stack_b, int i, t_main *l_main);
 void	case_for_three(t_list **stack_a, int i);
-void	case_for_five(t_list **stack_a, t_list **stack_b, int i);
+void	case_for_five(t_list **stack_a, t_list **stack_b, int i, t_main *l_main);
 #endif
