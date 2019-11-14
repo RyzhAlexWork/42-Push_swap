@@ -19,7 +19,7 @@ int		ft_algorithm5(t_list **stack_a, t_list **stack_b, t_main *l_main)
 	k = j;
 	while (j < l_main->max)
 	{
-		if ((*stack_a)->order <= l_main->mid)
+		if ((*stack_a)->order < l_main->mid)
 		{
 			ft_push_b(stack_a, stack_b);
 			write(1, "pb\n", 3);
@@ -82,7 +82,7 @@ void	ft_algorithm3(t_list **stack_a, t_list **stack_b, t_main *l_main)
 			write(1, "pa\nra\n", 6);
 			l_main->next++;
 		}
-		else if ((*stack_b)->order >= l_main->mid)
+		else if ((*stack_b)->order > l_main->mid)
 		{
 			(*stack_b)->flag = l_main->flag;
 			ft_push_a(stack_a, stack_b);
@@ -134,26 +134,12 @@ void	ft_push_rot(t_list **stack_a, t_list **stack_b, int i)
 
 void	ft_algorithm2(t_list **stack_a, t_list **stack_b, t_main *l_main, int i)
 {
-	if (i > 1 && ft_check(stack_b, i) == 1)
+	while ((*stack_b) != NULL)
 	{
-		ft_push_rot(stack_a, stack_b, i);
-		l_main->next = l_main->next + i;
-	}
-	else if (i > 1 && i < 6)
-	{
-		special_case(stack_b, stack_a, i, l_main);
-		ft_push_rot(stack_a, stack_b, i);
-		l_main->next = l_main->next + i;
-	}
-	else
-	{
-		while ((*stack_b) != NULL)
-		{
-			l_main->max = l_main->mid;
-			l_main->mid = (l_main->max - l_main->next) / 2 + l_main->next;
-			l_main->flag++;
-			ft_algorithm3(stack_a, stack_b, l_main);
-		}
+		l_main->max = l_main->mid;
+		l_main->mid = (l_main->max - l_main->next) / 2 + l_main->next;
+		l_main->flag++;
+		ft_algorithm3(stack_a, stack_b, l_main);
 	}
 }
 

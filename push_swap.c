@@ -72,13 +72,7 @@ int main(int argc, char **argv)
 	while (l_num->prev != NULL)
 		l_num = l_num->prev;
 	ft_algorithm(l_num, i);
-	while (l_num->prev != NULL)
-		l_num = l_num->prev;
-	while (l_num != NULL)
-	{
-		printf("%d\n", l_num->value);
-		l_num = l_num->next;
-	}
+
 	free(array);
 	ft_clear_list(&l_num);
 	return (0);
