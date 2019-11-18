@@ -1,6 +1,41 @@
 
 #include "push_swap.h"
 
+int 	ft_check(t_list **stack_b, int i)
+{
+	t_list	*tmp;
+	int 	j;
+
+	j = 0;
+	tmp = (*stack_b)->next;
+	while (tmp != NULL && (*stack_b)->order + 1 == tmp->order)
+	{
+		(*stack_b) = tmp;
+		tmp = tmp->next;
+		j++;
+	}
+	while ((*stack_b)->prev != NULL)
+		(*stack_b) = (*stack_b)->prev;
+	if (i == j + 1)
+		return (1);
+	else
+		return (-1);
+}
+
+void	ft_push_rot(t_list **stack_a, t_list **stack_b, int i)
+{
+	int j;
+
+	j = 0;
+	while (j < i)
+	{
+		ft_push_a(stack_a, stack_b);
+		ft_rotate_a(stack_a);
+		j++;
+		write(1, "pa\nra\n", 6);
+	}
+}
+
 int		ft_checksort(t_list *l_num)
 {
 	while (l_num->prev != NULL && (l_num->value > (l_num->prev)->value))
