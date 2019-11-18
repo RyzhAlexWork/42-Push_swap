@@ -1752,6 +1752,7 @@ ft_list.o: ft_list.c.o
 # target to build an object file
 ft_list.c.o:
 	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/ft_list.c.o
+	$(MAKE) -f CMakeFiles/42_checker.dir/build.make CMakeFiles/42_checker.dir/ft_list.c.o
 .PHONY : ft_list.c.o
 
 ft_list.i: ft_list.c.i
@@ -1761,6 +1762,7 @@ ft_list.i: ft_list.c.i
 # target to preprocess a source file
 ft_list.c.i:
 	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/ft_list.c.i
+	$(MAKE) -f CMakeFiles/42_checker.dir/build.make CMakeFiles/42_checker.dir/ft_list.c.i
 .PHONY : ft_list.c.i
 
 ft_list.s: ft_list.c.s
@@ -1770,6 +1772,7 @@ ft_list.s: ft_list.c.s
 # target to generate assembly for a file
 ft_list.c.s:
 	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/ft_list.c.s
+	$(MAKE) -f CMakeFiles/42_checker.dir/build.make CMakeFiles/42_checker.dir/ft_list.c.s
 .PHONY : ft_list.c.s
 
 operation.o: operation.c.o
@@ -1977,6 +1980,7 @@ validation.o: validation.c.o
 # target to build an object file
 validation.c.o:
 	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/validation.c.o
+	$(MAKE) -f CMakeFiles/42_checker.dir/build.make CMakeFiles/42_checker.dir/validation.c.o
 .PHONY : validation.c.o
 
 validation.i: validation.c.i
@@ -1986,6 +1990,7 @@ validation.i: validation.c.i
 # target to preprocess a source file
 validation.c.i:
 	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/validation.c.i
+	$(MAKE) -f CMakeFiles/42_checker.dir/build.make CMakeFiles/42_checker.dir/validation.c.i
 .PHONY : validation.c.i
 
 validation.s: validation.c.s
@@ -1995,6 +2000,7 @@ validation.s: validation.c.s
 # target to generate assembly for a file
 validation.c.s:
 	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/validation.c.s
+	$(MAKE) -f CMakeFiles/42_checker.dir/build.make CMakeFiles/42_checker.dir/validation.c.s
 .PHONY : validation.c.s
 
 # Help Target
