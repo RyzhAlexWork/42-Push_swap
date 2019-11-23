@@ -59,6 +59,32 @@ int lastcheck(t_list *stack_a, t_list *stack_b)
 	}
 }
 
+int	ft_checkpovt(t_list *s_a)
+{
+	t_list	*tmp1;
+	t_list	*tmp2;
+	int 	i;
+
+	while (s_a->prev != NULL)
+		s_a = s_a->prev;
+	tmp1 = s_a;
+	while (s_a != NULL)
+	{
+		i = 0;
+		tmp2 = tmp1;
+		while (tmp2 != NULL)
+		{
+			if (s_a->value == tmp2->value)
+				i++;
+			if (i > 1)
+				return (-1);
+			tmp2 = tmp2->next;
+		}
+		s_a = s_a->next;
+	}
+	return (1);
+}
+
 int main(int argc, char **argv)
 {
 	t_list	*stack_a;
@@ -66,13 +92,12 @@ int main(int argc, char **argv)
 	char 	*line;
 	char 	*str;
 	int 	i;
-	int 	fd;
+	int 	*array;
 
 	i = 0;
 	line = NULL;
 	stack_a = NULL;
 	stack_b = NULL;
-	fd = open("ra", O_RDONLY);
 	str = ft_strnew(10);
 	if (ft_validation(argc, argv, &stack_a) == -1)
 	{
@@ -100,6 +125,11 @@ int main(int argc, char **argv)
 			if (str[i] == '\n')
 				i++;
 		}
+	}
+	if (ft_checkpovt(stack_a) == -1)
+	{
+		write(2, "Error\n", 6);
+		exit(-1);
 	}
 	lastcheck(stack_a, stack_b);
 	if (stack_b != NULL)

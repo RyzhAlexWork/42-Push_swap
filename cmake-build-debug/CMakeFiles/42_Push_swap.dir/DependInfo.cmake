@@ -4,19 +4,20 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/jbowen/CLionProjects/42-Push_swap/GetNextLine/get_next_line.c" "/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/GetNextLine/get_next_line.c.o"
-  "/home/jbowen/CLionProjects/42-Push_swap/algorithm.c" "/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/algorithm.c.o"
-  "/home/jbowen/CLionProjects/42-Push_swap/ft_list.c" "/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/ft_list.c.o"
-  "/home/jbowen/CLionProjects/42-Push_swap/operation.c" "/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/operation.c.o"
-  "/home/jbowen/CLionProjects/42-Push_swap/operation2.c" "/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/operation2.c.o"
-  "/home/jbowen/CLionProjects/42-Push_swap/operation3.c" "/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/operation3.c.o"
-  "/home/jbowen/CLionProjects/42-Push_swap/push_swap.c" "/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/push_swap.c.o"
-  "/home/jbowen/CLionProjects/42-Push_swap/quicksort.c" "/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/quicksort.c.o"
-  "/home/jbowen/CLionProjects/42-Push_swap/special_case.c" "/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/special_case.c.o"
-  "/home/jbowen/CLionProjects/42-Push_swap/special_case2.c" "/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/special_case2.c.o"
-  "/home/jbowen/CLionProjects/42-Push_swap/validation.c" "/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/validation.c.o"
+  "/Users/jbowen/CLionProjects/42-Push_swap/GetNextLine/get_next_line.c" "/Users/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/GetNextLine/get_next_line.c.o"
+  "/Users/jbowen/CLionProjects/42-Push_swap/algorithm.c" "/Users/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/algorithm.c.o"
+  "/Users/jbowen/CLionProjects/42-Push_swap/array.c" "/Users/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/array.c.o"
+  "/Users/jbowen/CLionProjects/42-Push_swap/ft_list.c" "/Users/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/ft_list.c.o"
+  "/Users/jbowen/CLionProjects/42-Push_swap/operation.c" "/Users/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/operation.c.o"
+  "/Users/jbowen/CLionProjects/42-Push_swap/operation2.c" "/Users/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/operation2.c.o"
+  "/Users/jbowen/CLionProjects/42-Push_swap/operation3.c" "/Users/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/operation3.c.o"
+  "/Users/jbowen/CLionProjects/42-Push_swap/push_swap.c" "/Users/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/push_swap.c.o"
+  "/Users/jbowen/CLionProjects/42-Push_swap/quicksort.c" "/Users/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/quicksort.c.o"
+  "/Users/jbowen/CLionProjects/42-Push_swap/special_case.c" "/Users/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/special_case.c.o"
+  "/Users/jbowen/CLionProjects/42-Push_swap/special_case2.c" "/Users/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/special_case2.c.o"
+  "/Users/jbowen/CLionProjects/42-Push_swap/validation.c" "/Users/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/validation.c.o"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

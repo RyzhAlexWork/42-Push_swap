@@ -51,5 +51,6 @@ void	case_for_three(t_list **stack_a, int i);
 void	case_for_five(t_list **stack_a, t_list **stack_b, int i, t_main *l_main);
 void	ft_push_rot(t_list **stack_a, t_list **stack_b, int i);
 int		ft_checksort(t_list *l_num);
+int		*ft_makearray(t_list *l_num, int *i);
 
 #endif

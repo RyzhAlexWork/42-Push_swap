@@ -1,5 +1,5 @@
-/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir
-/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/libft.dir
-/home/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_checker.dir
+/Users/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/libft.dir
+/Users/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_checker.dir
+/Users/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir
