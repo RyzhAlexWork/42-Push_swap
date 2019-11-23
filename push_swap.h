@@ -1,3 +1,14 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   push_swap.h                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jbowen <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/11/24 00:28:01 by jbowen            #+#    #+#             */
+/*   Updated: 2019/11/24 00:28:07 by jbowen           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #ifndef PUSH_SWAP_H
 # define PUSH_SWAP_H
@@ -21,6 +32,7 @@ typedef struct		s_main
 	int				max;
 	int				flag;
 	int				next;
+	int 			i;
 }					t_main;
 
 int		ft_validation(int argc, char **argv, t_list **l_num);
@@ -43,7 +55,7 @@ void	ft_revrotate_r(t_list **stack_a, t_list **stack_b);
 t_main	*ft_crmain(int i);
 void	ft_algorithm(t_list *stack_a, int i);
 void	ft_algorithm2(t_list **stack_a, t_list **stack_b, t_main *l_main, int i);
-void	ft_algorithm3(t_list **stack_a, t_list **stack_b, t_main *l_main);
+void	ft_algorithm3(t_list **stack_a, t_list **stack_b, t_main *l_main, int i);
 int		ft_algorithm4(t_list **stack_a, t_list **stack_b, t_main *l_main);
 int		ft_algorithm5(t_list **stack_a, t_list **stack_b, t_main *l_main);
 void	special_case(t_list **stack_a, t_list **stack_b, int i, t_main *l_main);
@@ -52,5 +64,8 @@ void	case_for_five(t_list **stack_a, t_list **stack_b, int i, t_main *l_main);
 void	ft_push_rot(t_list **stack_a, t_list **stack_b, int i);
 int		ft_checksort(t_list *l_num);
 int		*ft_makearray(t_list *l_num, int *i);
+void	ft_support(char *line, char *str, t_list *stack_a, t_list *stack_b);
+void	ft_support2(char *str, t_list *stack_a, t_list *stack_b);
+int		lastcheck(t_list *stack_a, t_list *stack_b);
 
 #endif

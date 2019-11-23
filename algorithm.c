@@ -1,5 +1,16 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   algorithm.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jbowen <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/11/24 00:26:15 by jbowen            #+#    #+#             */
+/*   Updated: 2019/11/24 00:26:31 by jbowen           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "push_swap.h"
-#include <stdio.h>
 
 int		ft_algorithm5(t_list **stack_a, t_list **stack_b, t_main *l_main)
 {
@@ -54,12 +65,9 @@ int		ft_algorithm4(t_list **stack_a, t_list **stack_b, t_main *l_main)
 	return (j);
 }
 
-void	ft_algorithm3(t_list **stack_a, t_list **stack_b, t_main *l_main)
+void	ft_algorithm3(t_list **stack_a, t_list **stack_b, t_main *l_main, int i)
 {
-	int i;
-
-	i = 0;
-	while (*(stack_b) != NULL)
+	while (i > 0)
 	{
 		if ((*stack_b)->order == l_main->next)
 		{
@@ -67,30 +75,33 @@ void	ft_algorithm3(t_list **stack_a, t_list **stack_b, t_main *l_main)
 			ft_rotate_a(stack_a);
 			write(1, "pa\nra\n", 6);
 			l_main->next++;
+			(l_main->i)--;
 		}
 		else if ((*stack_b)->order > l_main->mid)
 		{
 			(*stack_b)->flag = l_main->flag;
 			ft_push_a(stack_a, stack_b);
 			write(1, "pa\n", 3);
+			(l_main->i)--;
 		}
 		else
 		{
 			ft_rotate_b(stack_b);
 			write(1, "rb\n", 3);
 		}
-		i++;
+		i--;
 	}
 }
 
 void	ft_algorithm2(t_list **stack_a, t_list **stack_b, t_main *l_main, int i)
 {
+	l_main->i = i;
 	while ((*stack_b) != NULL)
 	{
 		l_main->max = l_main->mid;
 		l_main->mid = (l_main->max - l_main->next) / 2 + l_main->next;
 		l_main->flag++;
-		ft_algorithm3(stack_a, stack_b, l_main);
+		ft_algorithm3(stack_a, stack_b, l_main, l_main->i);
 	}
 }
 

@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/42_Push_swap.dir/special_case.c.o"
   "CMakeFiles/42_Push_swap.dir/special_case2.c.o"
   "CMakeFiles/42_Push_swap.dir/array.c.o"
+  "CMakeFiles/42_Push_swap.dir/lastcheck.c.o"
   "42_Push_swap.pdb"
   "42_Push_swap"
 )

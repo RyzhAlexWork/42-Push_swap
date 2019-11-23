@@ -1,5 +1,16 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   push_swap.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jbowen <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/11/24 00:27:49 by jbowen            #+#    #+#             */
+/*   Updated: 2019/11/24 00:27:52 by jbowen           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "push_swap.h"
-#include <stdio.h>
 
 t_main	*ft_crmain(int i)
 {
@@ -11,6 +22,7 @@ t_main	*ft_crmain(int i)
 	l_main->flag = 1;
 	l_main->max = i;
 	l_main->mid = l_main->max / 2 + l_main->next;
+	l_main->i = 0;
 	return (l_main);
 }
 

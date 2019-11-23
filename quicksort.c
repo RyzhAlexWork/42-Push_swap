@@ -1,3 +1,14 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   quicksort.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jbowen <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/11/24 00:28:29 by jbowen            #+#    #+#             */
+/*   Updated: 2019/11/24 00:28:32 by jbowen           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "push_swap.h"
 
@@ -48,40 +59,40 @@ int		ft_checksort(t_list *l_num)
 
 void	quicksort2(int *array, int *left, int *right, int pivot)
 {
-	while (*left < *right) // пока границы не сомкнутся
+	while (*left < *right)
 	{
 		while ((array[*right] >= pivot) && (*left < *right))
-			(*right)--; // сдвигаем правую границу пока элемент [right] больше [pivot]
-		if (*left != *right) // если границы не сомкнулись
+			(*right)--;
+		if (*left != *right)
 		{
-			array[*left] = array[*right]; // перемещаем элемент [right] на место разрешающего
-			(*left)++; // сдвигаем левую границу вправо
+			array[*left] = array[*right];
+			(*left)++;
 		}
 		while ((array[*left] <= pivot) && (*left < *right))
-			(*left)++; // сдвигаем левую границу пока элемент [left] меньше [pivot]
-		if (*left != *right) // если границы не сомкнулись
+			(*left)++;
+		if (*left != *right)
 		{
-			array[*right] = array[*left]; // перемещаем элемент [left] на место [right]
-			(*right)--; // сдвигаем правую границу влево
+			array[*right] = array[*left];
+			(*right)--;
 		}
 	}
 }
 
 void	quicksort(int *array, int left, int right)
 {
-	int	pivot; // разрешающий элемент
-	int	l_hold; //левая граница
-	int	r_hold; // правая граница
+	int	pivot;
+	int	l_hold;
+	int	r_hold;
 
 	l_hold = left;
 	r_hold = right;
 	pivot = array[left];
 	quicksort2(array, &left, &right, pivot);
-	array[left] = pivot; // ставим разрешающий элемент на место
+	array[left] = pivot;
 	pivot = left;
 	left = l_hold;
 	right = r_hold;
-	if (left < pivot) // Рекурсивно вызываем сортировку для левой и правой части массива
+	if (left < pivot)
 		quicksort(array, left, pivot - 1);
 	if (right > pivot)
 		quicksort(array, pivot + 1, right);

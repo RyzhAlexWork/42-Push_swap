@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/jbowen/CLionProjects/42-Push_swap/algorithm.c" "/Users/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/algorithm.c.o"
   "/Users/jbowen/CLionProjects/42-Push_swap/array.c" "/Users/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/array.c.o"
   "/Users/jbowen/CLionProjects/42-Push_swap/ft_list.c" "/Users/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/ft_list.c.o"
+  "/Users/jbowen/CLionProjects/42-Push_swap/lastcheck.c" "/Users/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/lastcheck.c.o"
   "/Users/jbowen/CLionProjects/42-Push_swap/operation.c" "/Users/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/operation.c.o"
   "/Users/jbowen/CLionProjects/42-Push_swap/operation2.c" "/Users/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/operation2.c.o"
   "/Users/jbowen/CLionProjects/42-Push_swap/operation3.c" "/Users/jbowen/CLionProjects/42-Push_swap/cmake-build-debug/CMakeFiles/42_Push_swap.dir/operation3.c.o"

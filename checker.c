@@ -1,8 +1,18 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   checker.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jbowen <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/11/24 00:26:55 by jbowen            #+#    #+#             */
+/*   Updated: 2019/11/24 00:26:58 by jbowen           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "push_swap.h"
-#include <stdio.h>
 
-int ft_validcom(char *s, t_list **stack_a, t_list **stack_b)
+int		ft_validcom(char *s, t_list **stack_a, t_list **stack_b)
 {
 	if (s[0] == 'p' && s[1] == 'a' && s[2] == '\n')
 		ft_push_a(stack_a, stack_b);
@@ -31,35 +41,7 @@ int ft_validcom(char *s, t_list **stack_a, t_list **stack_b)
 	return (1);
 }
 
-int lastcheck(t_list *stack_a, t_list *stack_b)
-{
-	while (stack_a->prev != NULL)
-		stack_a = stack_a->prev;
-	if (stack_b == NULL)
-	{
-		while (stack_a->next != NULL &&
-			   stack_a->value < (stack_a->next)->value)
-			stack_a = stack_a->next;
-		if (stack_a->next == NULL &&
-			(stack_a->prev)->value < stack_a->value)
-		{
-			write(1, "OK\n", 3);
-			return (1);
-		}
-		else
-		{
-			write(1, "KO\n", 3);
-			return (-1);
-		}
-	}
-	else
-	{
-		write(1, "KO\n", 3);
-		return (-1);
-	}
-}
-
-int	ft_checkpovt(t_list *s_a)
+int		ft_checkpovt(t_list *s_a)
 {
 	t_list	*tmp1;
 	t_list	*tmp2;
@@ -85,32 +67,11 @@ int	ft_checkpovt(t_list *s_a)
 	return (1);
 }
 
-int main(int argc, char **argv)
+void	ft_support2(char *str, t_list *stack_a, t_list *stack_b)
 {
-	t_list	*stack_a;
-	t_list	*stack_b;
-	char 	*line;
-	char 	*str;
-	int 	i;
-	int 	*array;
+	int i;
 
 	i = 0;
-	line = NULL;
-	stack_a = NULL;
-	stack_b = NULL;
-	str = ft_strnew(10);
-	if (ft_validation(argc, argv, &stack_a) == -1)
-	{
-		write(2, "Error\n", 6);
-		exit(-1);
-	}
-	while (stack_a->prev != NULL)
-		stack_a = stack_a->prev;
-	while (get_next_line(0, &line))
-	{
-		str = ft_strjoinfree(str, line);
-		str = ft_strjoinfree(str, "\n");
-	}
 	while (str[i] != '\0')
 	{
 		if (ft_validcom(str + i, &stack_a, &stack_b) == -1)
@@ -126,11 +87,42 @@ int main(int argc, char **argv)
 				i++;
 		}
 	}
+}
+
+void	ft_support(char *line, char *str, t_list *stack_a, t_list *stack_b)
+{
+	while (get_next_line(0, &line))
+	{
+		str = ft_strjoinfree(str, line);
+		str = ft_strjoinfree(str, "\n");
+	}
+	ft_support2(str, stack_a, stack_b);
 	if (ft_checkpovt(stack_a) == -1)
 	{
 		write(2, "Error\n", 6);
 		exit(-1);
 	}
+}
+
+int		main(int argc, char **argv)
+{
+	t_list	*stack_a;
+	t_list	*stack_b;
+	char 	*line;
+	char 	*str;
+
+	line = NULL;
+	stack_a = NULL;
+	stack_b = NULL;
+	str = ft_strnew(10);
+	if (ft_validation(argc, argv, &stack_a) == -1)
+	{
+		write(2, "Error\n", 6);
+		exit(-1);
+	}
+	while (stack_a->prev != NULL)
+		stack_a = stack_a->prev;
+	ft_support(line, str, stack_a, stack_b);
 	lastcheck(stack_a, stack_b);
 	if (stack_b != NULL)
 		ft_clear_list(&stack_b);

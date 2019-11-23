@@ -1,8 +1,18 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   validation.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jbowen <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/11/24 00:29:04 by jbowen            #+#    #+#             */
+/*   Updated: 2019/11/24 00:29:07 by jbowen           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "push_swap.h"
-#include <stdio.h>
 
-int 	*ft_checkrep(int *array, int i) // Проверка на повторы
+int 	*ft_checkrep(int *array, int i)
 {
 	int j;
 
@@ -17,7 +27,7 @@ int 	*ft_checkrep(int *array, int i) // Проверка на повторы
 	return (array);
 }
 
-int 	ft_checkzero(int argc, char **argv, int i, int j) // Проверяет, 0 это 0 или ошибка
+int 	ft_checkzero(int argc, char **argv, int i, int j)
 {
 	while (j <= i && ft_isdigit(argv[argc][j]) != 1)
 		j++;
@@ -28,7 +38,7 @@ int 	ft_checkzero(int argc, char **argv, int i, int j) // Проверяет, 0 
 	return (0);
 }
 
-int		ft_getnum(int argc, char **argv, t_list **l_num) // Создает список всех чисел
+int		ft_getnum(int argc, char **argv, t_list **l_num)
 {
 	int i;
 	int j;
@@ -38,17 +48,18 @@ int		ft_getnum(int argc, char **argv, t_list **l_num) // Создает спис
 	while (argv[argc][i] != '\0')
 	{
 		j = i;
-		while (argv[argc][i] != '\0' && ft_isdigit(argv[argc][i]) != 1) // Проверка, есть ли числа дальше
+		while (argv[argc][i] != '\0' && ft_isdigit(argv[argc][i]) != 1)
 			i++;
 		if (argv[argc][i] == '\0')
 			return (0);
 		i = j;
 		num = ft_atoi(argv[argc], &i);
-		if (num == 0 && (ft_checkzero(argc, argv, i, j)) == -1) // Проверка, число ошибочное или 0
+		if (num == 0 && (ft_checkzero(argc, argv, i, j)) == -1)
 			return (-1);
-		if (((*l_num) = ft_new_list(num, l_num)) == NULL) // Создаём лист под число
+		if (((*l_num) = ft_new_list(num, l_num)) == NULL)
 			return (-1);
 	}
+	return (0);
 }
 
 int		ft_validation2(int argc, char **argv)
@@ -56,12 +67,12 @@ int		ft_validation2(int argc, char **argv)
 	int i;
 
 	i = 0;
-	while (ft_isdigit(argv[argc][i]) != 1 && argv[argc][i] != '\0') // Проверка на наличие цифр
+	while (ft_isdigit(argv[argc][i]) != 1 && argv[argc][i] != '\0')
 		i++;
 	if (argv[argc][i] == '\0')
 		return (-1);
 	i = 0;
-	while (ft_isdigit(argv[argc][i]) || ft_isspace(argv[argc][i]) || // Проверка на отсутствие посторонних знаков
+	while (ft_isdigit(argv[argc][i]) || ft_isspace(argv[argc][i]) ||
 	argv[argc][i] == '-' || argv[argc][i] == '+')
 		i++;
 	if (argv[argc][i] != '\0')

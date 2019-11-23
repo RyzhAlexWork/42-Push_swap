@@ -366,6 +366,10 @@
 			<Option target="42_checker"/>
 			<Option target="42_Push_swap"/>
 		</Unit>
+		<Unit filename="/Users/jbowen/CLionProjects/42-Push_swap/lastcheck.c">
+			<Option target="42_checker"/>
+			<Option target="42_Push_swap"/>
+		</Unit>
 		<Unit filename="/Users/jbowen/CLionProjects/42-Push_swap/operation.c">
 			<Option target="42_checker"/>
 			<Option target="42_Push_swap"/>

@@ -1805,6 +1805,36 @@ ft_list.c.s:
 	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/ft_list.c.s
 .PHONY : ft_list.c.s
 
+lastcheck.o: lastcheck.c.o
+
+.PHONY : lastcheck.o
+
+# target to build an object file
+lastcheck.c.o:
+	$(MAKE) -f CMakeFiles/42_checker.dir/build.make CMakeFiles/42_checker.dir/lastcheck.c.o
+	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/lastcheck.c.o
+.PHONY : lastcheck.c.o
+
+lastcheck.i: lastcheck.c.i
+
+.PHONY : lastcheck.i
+
+# target to preprocess a source file
+lastcheck.c.i:
+	$(MAKE) -f CMakeFiles/42_checker.dir/build.make CMakeFiles/42_checker.dir/lastcheck.c.i
+	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/lastcheck.c.i
+.PHONY : lastcheck.c.i
+
+lastcheck.s: lastcheck.c.s
+
+.PHONY : lastcheck.s
+
+# target to generate assembly for a file
+lastcheck.c.s:
+	$(MAKE) -f CMakeFiles/42_checker.dir/build.make CMakeFiles/42_checker.dir/lastcheck.c.s
+	$(MAKE) -f CMakeFiles/42_Push_swap.dir/build.make CMakeFiles/42_Push_swap.dir/lastcheck.c.s
+.PHONY : lastcheck.c.s
+
 operation.o: operation.c.o
 
 .PHONY : operation.o
@@ -2230,6 +2260,9 @@ help:
 	@echo "... ft_list.o"
 	@echo "... ft_list.i"
 	@echo "... ft_list.s"
+	@echo "... lastcheck.o"
+	@echo "... lastcheck.i"
+	@echo "... lastcheck.s"
 	@echo "... operation.o"
 	@echo "... operation.i"
 	@echo "... operation.s"
